@@ -99,11 +99,11 @@ public class Job {
     public String toString() {
         return (lineSeparator()
                 + "ID: " + id + "\n"
-                + "Name: " + (name.isEmpty() ? "Data Not Available" : name) + "\n"
-                + "Employer: " + (employer.getValue().isEmpty() ? "Data Not Available" : employer) + "\n"
-                + "Location: " + (location.getValue().isEmpty() ? "Data Not Available" : location) + "\n"
-                + "Position Type: " + (positionType.getValue().isEmpty() ? "Data Not Available" : positionType) + "\n"
-                + "Core Competency: " + (coreCompetency.getValue().isEmpty() ? "Data Not Available" : coreCompetency)
+                + "Name: " + (name.isEmpty() ? "Data not available" : name) + "\n"
+                + "Employer: " + (employer.getValue().isEmpty() ? "Data not available" : employer) + "\n"
+                + "Location: " + (location.getValue().isEmpty() ? "Data not available" : location) + "\n"
+                + "Position Type: " + (positionType.getValue().isEmpty() ? "Data not available" : positionType) + "\n"
+                + "Core Competency: " + (coreCompetency.getValue().isEmpty() ? "Data not available" : coreCompetency)
                 + lineSeparator());
     }
 }
